@@ -18,12 +18,13 @@
 }
 .image{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 15rem;
+    object-fit: contain;
     background: linear-gradient(to right, rgba(0,0,0,.1), rgba(0,0,0,.9));
     
     
 }
+
 #skills-section{
 }
 .icons{
@@ -325,7 +326,11 @@ a{
 }
 
 
+.1st {
+    display: grid;
+    justify-content: center;
 
+  }
 
 
 
